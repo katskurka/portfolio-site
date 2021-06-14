@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 
 body {
   background: linear-gradient(#2A048F, #781E75);
-  font-family: sans-serif;
+  font-family: 'Caveat', sans-serif;
   color: #fff;
   line-height: 1.6;
   height: 100vh;
@@ -71,10 +73,25 @@ height: 100vh;
 
 section h1 {
 font-size: 4rem;
+font-family: 'Caveat', cursive;
 }
 
 section p {
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+.media {
+  bottom: 0;
+  display: flex;
+  width: 50%;
+  height 50px;
+  z-index: 1;
+}
+
+.media ul {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 #home {
